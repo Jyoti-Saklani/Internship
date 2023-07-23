@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mockup Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .c1{
+            display: flex;
+        }
+        .c2{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            padding-left: 1%;
+        }
+        .c{
+            height: 4rem;
+        }
+        .c11{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .c22{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            padding-top: 4rem;
+        }
+        .c33{
+            display: flex;
+            flex-direction: column;
+            padding-top:10rem;
+        }
+        .d1{
+            padding-left: 5%;
+            margin-top: 30px;
+        }
+        .d2{
+            display: flex;
+            flex-direction: row;
+        }
+        .d22{
+            height: 80px;
+        }
+        .d23{
+            color:black;
+            padding-top: 3%;
+        }
+        .e1{
+            display: flex;
+            flex-direction: column;
+            padding-left: 5px;
+        }
+        .progress-bar1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: 
+              radial-gradient(closest-side, white 79%, transparent 80% 100%),
+              conic-gradient(green 75%, blue 0);    
+          }
+          .progress-bar1::before {
+            content: "75%";
+          }
+          .progress-bar2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: 
+              radial-gradient(closest-side, white 79%, transparent 80% 100%),
+              conic-gradient(green 95%, blue 0);    
+          }
+          .progress-bar2::before {
+            content: "95%";
+          }
+          .progress-bar3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: 
+              radial-gradient(closest-side, white 79%, transparent 80% 100%),
+              conic-gradient(green 59%, blue 0);    
+          }
+          .progress-bar3::before {
+            content: "59%";
+          }
+          .last{
+            margin-left: 130px;
+            margin-top:30px;
+          }
+          .last2{
+            margin-top: 30px;
+            margin-left: 90px;
+          }
+          @media only screen and (max-width:500px)
+          {
+            .c1{
+                display: flex;
+                flex-direction: column;
+            }
+            .c2{
+                display: flex;
+                flex-direction: row;
+            }
+            .c11,.c33{
+                display: none;
+            }
+            .c22{
+                display: flex;
+                flex-direction: row;
+            }
+            .c{
+                margin-left: 50px;
+            }
+            .c2,.last,.last2,.d1{
+                width:100%;
+                margin: 0;
+                padding: 0;
+            }
+            .ss{
+                display: flex;
+                flex-direction: column;
+            }
+            .t{
+                font-size: smaller;
+            }
+          }
+    </style>
+    
+</head>
+<body>
+    <span class="c1">
+        <span class="c2">
+            <div class="c11">
+            <div class="c"><a href=""><i class="fa-solid fa-dove"></i></a></div>
+            <div class="c"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+            </div>
+            <div class="c22">
+            <div class="c"><a href=""><i class="fa-solid fa-house"></i></a></div>
+            <div class="c"><a href=""><i class="fa-solid fa-book"></i></a></div>
+            <div class="c"><a href=""><i class="fa-solid fa-newspaper"></i></a></div>
+            <div class="c"><a href=""><i class="fa-solid fa-user"></i></a></div>
+            </div>
+            <div class="c33">
+            <div class="c"><a href=""><i class="fa-regular fa-bell"></i></a></div>
+            <div class="c"><a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a></div> 
+            </div>
+        </span>
+        <span class="d1">
+            <span class="d2">
+                <span class="dd2">
+                <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" class="d22">
+                </span>
+                <span class="d23">
+                    <h1 style="line-height: 3%;" class="t">Hi Mike,</h1>
+                    <p style="padding-left: 2%;">Welcome Back</p>
+                </span>  
+            </span>
+            <span class="e1">
+                <p style="padding-top: 20px;line-height: 10px;"><b>Today</b></p>
+                <p style="margin-top: -7px;">
+                    <p><b>$19,500</b><br>
+                    Account Balance</p>
+                </p>
+                <p style="margin-top: -50px;">
+                    <p><b>$4,000</b><br>
+                    Year-to-Date Contribution</p>
+                </p>
+                <p style="margin-top: -50px;">
+                    <p><b>$1,893</b><br>
+                    Total Interest</p>
+                </p>
+                <select style="background-color: blue;color: aliceblue;font-size: larger;margin-top: -2px;">
+                    <option style="color: aliceblue;">I want to</option>
+                    <option>------</option>
+                    <option>++++++</option>
+                </select>
+                <h3>Recent Transection</h3>
+                <p style="margin-top: 5px;">
+                    2020-10-1<br>
+                    Withdraw Transfer to bank-xxx11<br>
+                    ------------------------------------
+                </p>
+                <p style="margin-top: -10px;">
+                    2020-9-1<br>
+                    Withdraw Transfer to bank-xxx22<br>
+                    ------------------------------------
+                </p>
+                <p style="margin-top: -10px;">
+                    2020-8-1<br>
+                    Withdraw Transfer to bank-xxx33<br>
+                    ------------------------------------
+                </p>
+            </span>
+        </span>
+        <span class="last">
+            <p>
+                <h5 style="color:blue;">Retirement Income</h5>
+                <h2 style="margin-top: -22px;">Starting Year 2056</h2>
+            </p>
+            <div style="display: flex;flex-direction: row;">
+                <div style="margin-top: 15px;">
+                    <h3>$300,000</h3>
+                    <p style="margin-top: -20px;">My Goals</p><br>
+                    <p style="color: blue;margin-top: -30px;">_________________</p>
+                </div>
+                <div style="margin-top: 15px;margin-left: 9px;">
+                    <h3>59%</h3>
+                    <p style="margin-top: -20px;">Goal Achieved </p><br>
+                    <p style="color: blue;margin-top: -30px;">_________________</p> 
+                </div>
+                <div style="margin-top: 15px;margin-left: 9px;">
+                    <h3>$300</h3>
+                    <p style="margin-top: -20px;">Est. Monthly Income</p><br>
+                    <p style="color: blue;margin-top: -30px;">__________________</p>
+                </div>
+            </div>
+            <p style="margin-top: 20px;"><b>Contributions Overtime</b></p>
+            <div>
+                <canvas id="myChart"></canvas>
+            </div>
+            <h3>How Do I Compare To My Peers?</h3>
+            <p>These numbers represent current goal achievements</p>
+            <div style="display: flex;" class="ss">
+                <div>
+                    Age:<select><option>under 30</option></select>
+                    <p style="margin-top: -10px;">________________________</p>
+                    Salary:<select ><option>k 20-k 30</option></select>
+                    <p style="margin-top: -10px;">________________________</p>
+                    Gender:<select><option>Male</option><option>Female</option></select>
+                </div>
+                <div style="display: flex;" >
+                    <div class="progress-bar1" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div><h5>Average</h5>
+                    <div class="progress-bar2" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div><h5>Top</h5>
+                    <div class="progress-bar3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div><h5>Me</h5>
+                </div>
+            </div>
+        </span>
+        <span class="last2">
+            <h3>Retirement Strategy</h3>
+            <p>Employe Contribution</p>
+            <progress value="12" max="100"></progress>
+            <p>Retirement Age</p>
+            <progress value="65" max="100"></progress>
+            <p>_____________________________________</p>
+            <div style="display: flex;">
+            <p>Employer Contribution</p>
+            <p style="margin-left: 90px;">8.4%</p>
+            </div>
+            <div style="display: flex;">
+                <p>Interest Rate</p>
+                <p style="margin-left: 170px;">5%</p>
+            </div>
+            <button style="background-color: blue;color: antiquewhite;font-size: larger;border-radius: 10%;margin-left: 100px;margin-top: 20px;">Update</button>
+            <p><a href="" style="margin-left: 80px;margin-top: 50px;text-decoration: none;">View Help Docs ></a></p>
+            <p><a href="" style="margin-top: 60px;margin-left: 90px;text-decoration: none;">Learn More --></a></p>
+        </span>
+    </span>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('myChart');
+        let l=['Employer: K 73,500'];
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['20','25', '30', '35', '40', '60'],
+            datasets: [{
+              label: l,
+              data: [10, 20, 30, 40, 50, 60],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+</body>
+</html>
+
